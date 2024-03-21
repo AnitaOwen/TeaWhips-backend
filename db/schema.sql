@@ -5,10 +5,10 @@ CREATE DATABASE teapots_dev
 
 CREATE TABLE teapots (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(30) NOT NULL,
+  name VARCHAR(100) NOT NULL,
   image TEXT NOT NULL,
   price INTEGER NOT NULL,
-  description VARCHAR(200),
+  description VARCHAR(500),
   material TEXT,
   capacity INTEGER
 );
